@@ -4,7 +4,7 @@
 
 ## 🔧 Procedimento
 
-Use o prefixo Sender, que é enviado como parâmetro.
+Use o prefixo Sender, que é enviado como parâmetro. Por exemplo: suponha que você deseja tornar genérico um método que utiliza um componente TEdit chamado "MeuEdit"
 
 Em vez de :
 
@@ -16,4 +16,6 @@ Faça assim ;
 `` 
 TEdit(Sender).Text := 'Valor';
 `` 
+
+Onde TEdit é o tipo de componente e Sender é o parâmetro passado pelo método.
 
