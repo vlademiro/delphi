@@ -8,13 +8,13 @@ Use o prefixo Sender, que é enviado como parâmetro.
 
 Em vez de :
 
-``delphi
+`` delphi
 MeuEdit.Text := 'Valor';
-```
+`` ``
 
 Faça assim ;
-``delphi
+`` delphi
 TEdit(Sender).Text := 'Valor';
-```
+`` ``
 
  
