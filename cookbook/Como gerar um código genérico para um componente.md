@@ -20,7 +20,8 @@ Em vez de :
 MeuEdit.Text := 'Valor';
 `` 
 
-Faça assim ;
+Faça assim :
+
 `` 
 TEdit(Sender).Text := 'Valor';
 `` 
