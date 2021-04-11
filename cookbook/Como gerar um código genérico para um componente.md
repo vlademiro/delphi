@@ -7,6 +7,7 @@ Quando queremos referenciar um componente através do código usamos uma nomencl
 ``
 NomeDoComponente.Propriedade := Valor
 ``
+
 Mas as vezes queremos tornar o código genérico e evitar a digitação do nome do componente em questão. Como fazer ?
 
 
