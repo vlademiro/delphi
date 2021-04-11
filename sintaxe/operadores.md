@@ -4,7 +4,7 @@
 
 :exclamation: O operador `div` resulta sempre um número inteiro e o operador `/` sempre retorna um tipo Double
 
-``
+````
 program Hello;
 var
     x,y:Integer;
@@ -14,7 +14,7 @@ begin
   writeln( x / y );
   writeln( x div y );
 end.
-``
+````
 
 Resulta em :
 ``
