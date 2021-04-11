@@ -17,4 +17,17 @@ Faça assim ;
 TEdit(Sender).Text := 'Valor';
 `` ``
 
+`` `Json
+   // código para colorir
+`` `
+`` `Html
+   // código para colorir
+`` `
+`` `JS
+   // código para colorir
+`` `
+`` `Css
+   // código para colorir
+`` `
+
  
