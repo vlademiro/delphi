@@ -24,3 +24,7 @@ resulta em :
  5.00000000000000E+000                                                                                                                               
 5 
 ````
+
+Teste em : https://onlinegdb.com/r1RdlTxI_
+
+
