@@ -4,6 +4,8 @@
 
 :exclamation: O operador `div` resulta sempre um número inteiro e o operador `/` sempre retorna um tipo Double
 
+O programa abaixo :
+
 ````
 program Hello;
 var
@@ -16,7 +18,8 @@ begin
 end.
 ````
 
-Resulta em :
+resulta em :
+
 ``
  5.00000000000000E+000                                                                                                                               
 5 
