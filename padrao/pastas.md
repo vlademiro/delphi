@@ -38,3 +38,8 @@ Temp
 1. Para o seu projeto coloque o nome que você quer que saia no executável
 2. Para as Units sempre crie com o prefixo "U_", por exemplo "U_BaixaEstoque" (o sistema se encarregará das extensões)
 
+## Fonte 
+
+Organização das pastas : https://www.youtube.com/watch?v=yXu8-nFestw&list=PLr5fNRPNxagxdDomz-V5oVy9NQuDIGSLr&index=2
+Configurando a ferramenta para salvar no local : https://www.youtube.com/watch?v=qvbfxUHqn1E&list=PLr5fNRPNxagxdDomz-V5oVy9NQuDIGSLr&index=3
+
