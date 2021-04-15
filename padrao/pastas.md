@@ -6,7 +6,7 @@
 2. Dentro dessa pasta crie uma pasta para cada sistema. Por exemplo `C:\projetos\estoque`
 3. Dentro da pasta do seu sistema (no nosso exemplo é a pasta `estoque`) crie a seguinte estrutura de sub-pastas :
 
-``
+````
 Banco
    |
    +----- Dados
@@ -16,5 +16,5 @@ Executavel
 Fonte
 Projeto
 Temp
-``
+````
 
