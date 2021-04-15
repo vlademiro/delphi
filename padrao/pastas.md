@@ -14,6 +14,7 @@ Banco
 Doc  (Documentação do sistema)
 Executavel  (Onde ficará o executável)
 Fonte   (Onde ficarão os fontes)
+Imagem  (Imagens do sistema)
 Projeto   (Onde ficarão os arquivos de projeto)
 Temp
 ````
