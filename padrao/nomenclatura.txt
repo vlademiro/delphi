@@ -14,6 +14,7 @@ btn	TButton, TSpeedButton, TBitBtn
 cbr	TCoolBar
 chk	TCheckBox, TDBCheckBox
 cht	TChart, TDBChart, TQRChart
+con TFDConnection
 clg	TColorDialog
 cmb	TComboBox, TDBComboBox, TDBLookUpComboBox
 ctb	TControlBar
@@ -57,7 +58,7 @@ qpw	TQRPreview
 qrb	TQRBand, TQRChildBand
 qrg	TQRGroup
 qrp	TQuickReport
-qry	TQuery
+qry	TQuery,TFDQuery
 qsb	TQRStringsBand
 qsd	TQRSubDetail
 qsy	TQRSysData
