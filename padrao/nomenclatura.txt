@@ -73,6 +73,7 @@ spn	TSpinEdit
 srl	TScrollBox
 stb	TStatusBar
 stp	TStoredProc
+tab TTabSheet
 tbc	TTabControl
 tbl	TTable
 tbr	TToolBar
