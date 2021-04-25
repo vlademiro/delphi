@@ -59,14 +59,8 @@ end;
       try
         rewrite( arquivo );
         for x := 0 to conteudo.count-1 do
-        begin
-          if x = 1 then { se for o segundo elemento, então é a senha }
-            writeln( arquivo , Trim(edtSenha01.Text) )
-          else
             writeln(arquivo,conteudo[x]);
-        end;
-        showmessage('Senha alterada com sucesso');
-        Close;
+
       except
         on E : exception do
         begin
