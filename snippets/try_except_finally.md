@@ -39,6 +39,7 @@ Para realizarmos operações que não devem deixar de serem realizadas, como por
 ````
 try
   try
+  {Seu código aqui}
   except 
     on E : exception do
     begin
