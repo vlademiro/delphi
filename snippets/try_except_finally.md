@@ -11,7 +11,7 @@ try
 except 
   on E : exception do
   begin
-    messagedlg( E.error ,  mtError, [mbOk],0);
+    messagedlg( E.message ,  mtError, [mbOk],0);
   end;
 
 end;
@@ -43,8 +43,10 @@ try
   except 
     on E : exception do
     begin
-      messagedlg( E.error ,  mtError, [mbOk],0);
+      messagedlg( E.message ,  mtError, [mbOk],0);
+      // Outras linhas, se não tiver pode omitir o begin...end
     end;
+  end;  
 finally
   
 end;
