@@ -29,6 +29,10 @@ https://www.tutorialspoint.com/pascal/
 
 Site indicado pela fabricante : https://learndelphi.org/pt/
 
+http://functionx.com/objectpascal/
+
+http://functionx.com/delphi/
+
 ## Playground
 
 https://www.onlinegdb.com/
