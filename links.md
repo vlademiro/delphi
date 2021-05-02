@@ -9,6 +9,10 @@ http://www.planetadelphi.com.br/
 
 http://theclub.com.br/
 
+## Exemplos, tutoriais, snippets, etc.
+
+https://www.portugal-a-programar.pt/forums/topic/48647-links-%C3%BAteis-documenta%C3%A7%C3%A3o-livros-tutoriais-snippets/
+
 
 ## Catálogo / Curadoria
 
@@ -86,10 +90,6 @@ Delphi Clean Code : https://www.youtube.com/channel/UCZP7Sx1mZYVajf4nw0r15IQ
 VCL Examples : https://www.youtube.com/channel/UCSt-YQKjA0sBNB3cHZW6zng
 
 Intensive Delphi : https://www.youtube.com/channel/UCGVxpKsxtlY0D3P63fdZOog
-
-
-
-
 
 
 ## Playlists
