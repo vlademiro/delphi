@@ -14,25 +14,23 @@ var
 begin
   { Fonte : http://theclub.com.br/Restrito/Revistas/201011/meto1011.aspx }
   Result := '';
-  WriteLn ( ShortInt ( 65 )   shr  8 ) ;
   for I := 1 to Length( sEntrada ) do
     begin
-      write( Byte( sEntrada[I] ) , ' ' );
-      writeln( Char( Byte( sEntrada[I] ) ));
-      writeln( Char( Byte( sEntrada[I] ) xor (nStartKey shr 8)));
-      writeln( 'shr 8 : ', nStartKey shr 8 );
-      writeln('-----------------------------------------');
-      Result := Result + Char( Byte( sEntrada[I] ) xor (nStartKey shr 8));
+      write( 'Debug : Char(Byte(sEntrada[I])) : ' , Char( Byte( sEntrada[I] )));
+      writeln( ' xor ' , (nStartKey shr 8 mod 255 ) );
+      Result := Result + Char( Byte( sEntrada[I] ) xor (nStartKey shr 8 mod 255 ));
       nStartKey := ( Byte(Result[I]) + nStartKey) * nMultKey + nAddKey;
     end;
 end;
 
-
+var
+  sOriginal:string;
 begin
   try
     { TODO -oUser -cConsole Main : Insert code here }
+    write('Informe o nome a encriptar :');readln( sOriginal );
     { Encriptando }
-    writeln('Encriptando : ' , EncryptString('NIVIO CCE',5,1,1));
+    writeln('Encriptando : ' , EncryptString( sOriginal,5,51,21));
 
     write('Tecle enter para retornar');readln;
   except
