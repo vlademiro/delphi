@@ -21,6 +21,8 @@ https://www.revista-programar.info/artigos/programacao-orientada-aos-objectos-em
 
 ## Tutoriais
 
+https://www.freepascal.org/docs-html/ref/ref.html
+
 https://objectpascalprogramming.com/
 
 https://www.tutorialspoint.com/pascal/ 
