@@ -9,10 +9,6 @@ http://www.planetadelphi.com.br/
 
 http://theclub.com.br/
 
-## Exemplos, tutoriais, snippets, etc.
-
-https://www.portugal-a-programar.pt/forums/topic/48647-links-%C3%BAteis-documenta%C3%A7%C3%A3o-livros-tutoriais-snippets/
-
 
 ## Catálogo / Curadoria
 
@@ -25,6 +21,8 @@ https://www.revista-programar.info/artigos/programacao-orientada-aos-objectos-em
 
 ## Tutoriais
 
+https://objectpascalprogramming.com/
+
 https://www.tutorialspoint.com/pascal/ 
 
 Site indicado pela fabricante : https://learndelphi.org/pt/
@@ -32,6 +30,10 @@ Site indicado pela fabricante : https://learndelphi.org/pt/
 http://functionx.com/objectpascal/
 
 http://functionx.com/delphi/
+
+https://castle-engine.io/modern_pascal_introduction.html
+
+https://www.portugal-a-programar.pt/forums/topic/48647-links-%C3%BAteis-documenta%C3%A7%C3%A3o-livros-tutoriais-snippets/
 
 ## Playground
 
