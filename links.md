@@ -1,6 +1,15 @@
 
 # Links 
 
+## Sites e blogs
+
+https://showdelphi.com.br/
+
+http://www.planetadelphi.com.br/
+
+http://theclub.com.br/
+
+
 ## Catálogo / Curadoria
 
 https://github.com/Fr0sT-Brutal/awesome-pascal
