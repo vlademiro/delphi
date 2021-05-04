@@ -21,9 +21,21 @@ https://www.revista-programar.info/artigos/programacao-orientada-aos-objectos-em
 
 ## Tutoriais
 
+https://www.freepascal.org/docs-html/ref/ref.html
+
+https://objectpascalprogramming.com/
+
 https://www.tutorialspoint.com/pascal/ 
 
 Site indicado pela fabricante : https://learndelphi.org/pt/
+
+http://functionx.com/objectpascal/
+
+http://functionx.com/delphi/
+
+https://castle-engine.io/modern_pascal_introduction.html
+
+https://www.portugal-a-programar.pt/forums/topic/48647-links-%C3%BAteis-documenta%C3%A7%C3%A3o-livros-tutoriais-snippets/
 
 ## Playground
 
@@ -86,10 +98,6 @@ Delphi Clean Code : https://www.youtube.com/channel/UCZP7Sx1mZYVajf4nw0r15IQ
 VCL Examples : https://www.youtube.com/channel/UCSt-YQKjA0sBNB3cHZW6zng
 
 Intensive Delphi : https://www.youtube.com/channel/UCGVxpKsxtlY0D3P63fdZOog
-
-
-
-
 
 
 ## Playlists
