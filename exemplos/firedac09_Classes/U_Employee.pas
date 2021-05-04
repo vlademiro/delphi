@@ -14,6 +14,8 @@ interface
       procedure Cancel();
       procedure Refresh();
       procedure Post();
+      procedure ListALL();
+      procedure ListAllByName( cName:String );
 
   end;
 
@@ -29,6 +31,7 @@ end;
 constructor TEmployee.Create;
 begin
   sSelectBase := DM.qryEmployee.SQL.Text;
+  DM.qryEmployee.Open;
 end;
 
 procedure TEmployee.Delete;
@@ -39,6 +42,31 @@ end;
 procedure TEmployee.InsertMode;
 begin
   DM.qryEmployee.Insert;
+end;
+
+procedure TEmployee.ListALL;
+begin
+  DM.qryEmployee.Close;
+  DM.qryEmployee.SQL.Text := sSelectBase;
+  DM.qryEmployee.Open;
+  while not DM.qryEmployee.Eof do
+  begin
+      writeln( DM.qryEmployee.FieldByName('first_name').Value );
+      DM.qryEmployee.Next;
+  end;
+end;
+
+procedure TEmployee.ListAllByName(cName: String);
+begin
+  DM.qryEmployee.Close;
+  DM.qryEmployee.SQL.Text := sSelectBase + ' WHERE FIRST_NAME LIKE ''%'' || :CNAME || ''%''';
+  DM.qryEmployee.ParamByName('CNAME').AsString := cName;
+  DM.qryEmployee.Open;
+  while not DM.qryEmployee.Eof do
+  begin
+      writeln( DM.qryEmployee.FieldByName('first_name').Value );
+      DM.qryEmployee.Next;
+  end;
 end;
 
 procedure TEmployee.Post;
