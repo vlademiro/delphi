@@ -26,7 +26,9 @@ Temp
 2. Pressione Ctrl+Shift+F11 ou Vá no menu `Project -> Options` e selecione a opção `Delphi Compiler -> Compiling`.
 3. Selecione , no combobox "Target", a opção "All configurations - All platforms".
 4. Em "Output directory" selecione a pasta "Executavel".
-5. Em "Intermediate output" selecione a pasta "Temporario" (C++ Builder)
+5. Local onde os arquivos intermediários ficarão (os objs)
+5.1. C++ Builder : Em "Intermediate output" selecione a pasta "Temporario" 
+5.2. Delphi : Em "DCU output directory" selecione a pasta "Temporario"
 6. Pronto, pode salvar as configurações
 
 ## Quando for salvar seus arquivos
