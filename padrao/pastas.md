@@ -39,7 +39,10 @@ Temporario
 ## Padrões de nomes
 
 1. Para o seu projeto coloque o nome que você quer que saia no executável
-2. Para as Units sempre crie com o prefixo "U_", por exemplo "U_BaixaEstoque" (o sistema se encarregará das extensões)
+2. Para as Units sempre crie com o prefixo "U_", por exemplo "U_BaixaEstoque" (o sistema se encarregará das extensões). 
+
+Ex: Se você tiver criado um formulário chamado FrmPrincipal você pode salvar como U_FrmPrincipal (ou se preferir UFrmPrincipal)
+
 
 ## Fonte 
 
