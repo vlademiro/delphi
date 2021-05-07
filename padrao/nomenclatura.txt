@@ -58,7 +58,7 @@ qpw	TQRPreview
 qrb	TQRBand, TQRChildBand
 qrg	TQRGroup
 qrp	TQuickReport
-qry	TQuery,TFDQuery
+qry	TQuery,TFDQuery (Nota: em caso de query para campo lookup, coloque o sufixo UK. Exemplo qryMontadoraUK)
 qsb	TQRStringsBand
 qsd	TQRSubDetail
 qsy	TQRSysData
