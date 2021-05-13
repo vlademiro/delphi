@@ -30,7 +30,7 @@ finally
   
 end;
 ````
-Caso ocorra um erro a sequência é desviada para o bloco finally. Contudo o erro não é tratado porque o objeto erro não é gerado.
+Independente de ocorrer um erro ou não. 
 Para que serve isso então ?
 Para realizarmos operações que não devem deixar de serem realizadas, como por exemplo o fechamento de um arquivo.
 
