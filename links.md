@@ -21,6 +21,8 @@ https://www.revista-programar.info/artigos/programacao-orientada-aos-objectos-em
 
 ## Tutoriais
 
+http://www.help.market.com.br/delphi/dicas2.htm
+
 https://www.freepascal.org/docs-html/ref/ref.html
 
 https://objectpascalprogramming.com/
