@@ -14,6 +14,12 @@ Banco
 Doc  (Documentação do sistema)
 Executavel  (Onde ficará o executável)
 Fonte   (Onde ficarão os fontes)
+   |
+   +----- Controller   (MVC)
+   +----- DAO  (Data access objects)
+   +----- Model   (MVC)
+   +----- View  (MVC)
+
 Imagem  (Imagens do sistema)
 Projeto   (Onde ficarão os arquivos de projeto)
 Temporario
@@ -34,14 +40,14 @@ Temporario
 ## Quando for salvar seus arquivos
 
 1. Quando for salvar o seu projeto pela primeira vez selecione a pasta "Projeto"
-2. Sempre que for salvar uma nova Unit salve-a na pasta "Fonte"
+2. Sempre que for salvar uma nova Unit salve-a na pasta "Fonte". Se estiver seguindo o padrão MVC crie as sub-pastas.
 
 ## Padrões de nomes
 
-1. Para o seu projeto coloque o nome que você quer que saia no executável
+1. Para o seu projeto coloque o nome que você quer que saia no executável. Caso ache necessário, coloque o sufixo Prj (de projeto) e envie para o setor de testes assim. Quando validado o sufixo Prj pode ser retirado do nome do executável.
 2. Para as Units sempre crie com o prefixo "U_", por exemplo "U_BaixaEstoque" (o sistema se encarregará das extensões). 
 
-Ex: Se você tiver criado um formulário chamado FrmPrincipal você pode salvar como U_FrmPrincipal (ou se preferir UFrmPrincipal)
+Ex: Se você tiver criado um formulário chamado FrmPrincipal você pode salvar como U_FrmPrincipal
 
 
 ## Fonte 
